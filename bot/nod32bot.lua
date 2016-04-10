@@ -245,83 +245,80 @@ function create_config( )
     "time",
     "version"
     },
-	    sudo_users = {158990680},--Sudo users
+	    sudo_users = {181213773},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-https://github.com/BH-YAGHI/NOD32-BOT.git
 
-channel : @Nod32team
-sodu : @behrooZyaghi
+sodu : @zdragonknight
 ]],
     help_text_realm = [[
 Realm Commands:
 
 !creategroup [Name]
-Create a group
+ساختن گروه
 
 !createrealm [Name]
-Create a realm
+ساخت مقر
 
 !setname [Name]
-Set realm name
+انتصاب نام مقر
 
 !setabout [GroupID] [Text]
-Set a group's about text
+انتصاب توضیحات گروه
 
 !setrules [GroupID] [Text]
-Set a group's rules
+انتصاب قوانین گروه
 
 !lock [GroupID] [setting]
-Lock a group's setting
+قفل تنظیمات گروه
 
 !unlock [GroupID] [setting]
-Unock a group's setting
+رفع قفل تنظیمات گروه 
 
 !wholist
-Get a list of members in group/realm
+لیست اعضای گروه یا مقر
 
 !who
-Get a file of members in group/realm
+فایل اعضای مقر یا گروه 
 
 !type
-Get group type
+نوع گروه
 
 !kill chat [GroupID]
-Kick all memebers and delete group
+پاک کردن اعضا و گروه 
 
 !kill realm [RealmID]
-Kick all members and delete realm
+پاک کردن اعضا و مقر
 
 !addadmin [id|username]
-Promote an admin by id OR username *Sudo only
+انتصاب به ادمین فقط ادمین اصلی
 
 !removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
+رفع انتصاب به ادمین فقط ادمین اصلی
 
 !list groups
-Get a list of all groups
+لیست گروه ها
 
 !list realms
-Get a list of all realms
+لیست مقر ها 
 
 !log
-Grt a logfile of current group or realm
+فایل لوگ ترسیمی
 
 !broadcast [text]
 !broadcast Hello !
 Send text to all groups
-Only sudo users can run this command
+فقط ادمین اصلی
 
 !bc [group_id] [text]
 !bc 123456789 Hello !
 This command will send text to [group_id]
 
-ch: @Nod32team
 
 ]],
     help_text = [[
-NOD32 Commands list :
+Commands list :
  
 1-banhammer list ^
  
@@ -518,7 +515,7 @@ NOD32 Commands list :
 you can use both "/" and "!" 
 .شما میتوانید از ! و / استفاده کنید
 
-channel: @Nod32Team
+@zdragonknight
 
 G00D LUCK ^_^
 ]]
